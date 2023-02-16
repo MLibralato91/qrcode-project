@@ -1,0 +1,49 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-qrcode: #3685fe;
+    --color-card: #ffffff;
+    --text-card: #0d1a2a;
+    --p-card: #919799;
+    --bg-card: #d5e1ef;
+}
+
+body{
+    background-color: var(--bg-card);
+}
+
+.container{
+    width: 300px;
+    background-color: var(--color-card);
+    border-radius: 20px;
+    margin-top: 100px;
+    box-shadow: 30px 30px 30px var(--p-card);
+}
+
+.card{
+    margin: 0 auto;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+h3{
+    width: 80%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+p{
+    width: 80%;
+    color: var(--p-card);
+    text-align: center;
+    padding: 20px 0;
+}
